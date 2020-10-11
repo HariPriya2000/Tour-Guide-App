@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+    <string name="category_beach">Beaches</string>
+    <string name="category_park">Parks</string>
+    <string name="category_restaurant">Restaurants</string>
+    <string name="category_temple">Temples</string>
+    <string name="list_view_working_hours">Working Hours:</string>
+
+    <!-- Beaches fragment resources -->
+
+    <array name="beach_venues">
+        <item>Ramakrishna Beach</item>
+        <item>Rishikonda Beach</item>
+        <item>Yarada Beach</item>
+        <item>Bheemunipatnam Beach</item>
+        <item>Gangavaram Beach</item>
+    </array>
+
+    <array name="beach_working_hours">
+        <item>Always</item>
+        <item>Always</item>
+        <item>Always</item>
+        <item>Always</item>
+        <item>Always</item>
+    </array>
+
+    <array name="beach_address">
+        <item>http://www.vizagtourism.org.in/rama-krishna-beach-vizag</item>
+        <item>http://www.vizagtourism.org.in/rishikonda-beach-vizag</item>
+        <item>http://www.vizagtourism.org.in/yarada-beach-vizag</item>
+        <item>http://www.vizagtourism.org.in/bheemunipatnam-beach-vizag</item>
+        <item>http://www.vizagtourism.org.in/gangavaram-beach-vizag</item>
+    </array>
+
+    <!-- Parks fragment resources -->
+
+    <array name="park_venues">
+        <item>VUDA Park</item>
+        <item>Sivaji Park</item>
+        <item>Tenneti Park</item>
+        <item>Kailasagiri Park</item>
+        <item>Indira Gandhi Zoological Park</item>
+    </array>
+
+    <array name="park_working_hours">
+        <item>8:30&#8211;20:30</item>
+        <item>16:00&#8211;21:00</item>
+        <item>7:00&#8211;21:00</item>
+        <item>6:00&#8211;19:30</item>
+        <item>9:00&#8211;17:00</item>
+    </array>
+
+    <array name="park_address">
+        <item>http://www.vizagtourism.org.in/vuda-park-vizag</item>
+        <item>http://www.vizagtourism.org.in/sivaji-park-vizag</item>
+        <item>http://www.vizagtourism.org.in/tenneti-beach-park-vizag</item>
+        <item>http://www.vizagtourism.org.in/kailasagiri-park-vizag</item>
+        <item>http://www.vizagtourism.org.in/indira-gandhi-zoological-park-vizag</item>
+    </array>
+
+    <!-- Restaurants fragment resources -->
+
+    <array name="restaurant_venues">
+        <item>Hotel Green Park</item>
+        <item>Kamat Restaurant</item>
+        <item>Barbeque Nation</item>
+        <item>Alpha Hotel</item>
+        <item>Delhi Diner</item>
+    </array>
+
+    <array name="restaurant_working_hours">
+        <item>Always</item>
+        <item>11:00&#8211;23:30</item>
+        <item>12:00&#8211;22:30</item>
+        <item>11:00&#8211;23:00</item>
+        <item>7:00&#8211;14:30</item>
+    </array>
+
+    <array name="restaurant_address">
+        <item>https://www.tripadvisor.in/Restaurant_Review-g297588-d5071876-Reviews-R_G_Hotel_GreenPark-Visakhapatnam_Visakhapatnam_District_Andhra_Pradesh.html</item>
+        <item>https://www.tripadvisor.in/Restaurant_Review-g297588-d7208832-Reviews-Kamat_Restaurant-Visakhapatnam_Visakhapatnam_District_Andhra_Pradesh.html</item>
+        <item>https://www.tripadvisor.in/Restaurant_Review-g297588-d8795182-Reviews-Barbeque_Nation-Visakhapatnam_Visakhapatnam_District_Andhra_Pradesh.html</item>
+        <item>https://www.tripadvisor.in/Restaurant_Review-g297588-d8104792-Reviews-Alpha_Hotel_Restaurant-Visakhapatnam_Visakhapatnam_District_Andhra_Pradesh.html</item>
+        <item>https://www.tripadvisor.in/Restaurant_Review-g297588-d9708326-Reviews-Delhi_Diner-Visakhapatnam_Visakhapatnam_District_Andhra_Pradesh.html</item>
+    </array>
+
+    <!-- Temples fragment resources -->
+
+    <array name="temple_venues">
+        <item>Varaha Lakshmi Narasimha Temple</item>
+        <item>Sri Sampath Vinayagar Temple</item>
+        <item>Sri Kanaka Mahalakshmi Temple</item>
+        <item>ISKCON Temple</item>
+        <item>Kali Temple</item>
+    </array>
+
+    <array name="temple_working_hours">
+        <item>Always</item>
+        <item>Always</item>
+        <item>Always</item>
+        <item>Always</item>
+        <item>Always</item>
+    </array>
+
+    <array name="temple_address">
+        <item>https://hellovizag.in/blog/simhachalam-sri-varaha-laxmi-narashima-swamy-temple/</item>
+        <item>https://hellovizag.in/blog/sri-sampath-vinayaka-swamy-temple/</item>
+        <item>http://www.vizagtourism.org.in/sri-kanaka-mahalakshmi-temple-vizag</item>
+        <item>https://hellovizag.in/blog/iskcon-temple-in-visakhapatnam-festivals-pujas-sevas/</item>
+        <item>http://www.vizagtourism.org.in/kali-temple-vizag</item>
+    </array>
+
+</resources>

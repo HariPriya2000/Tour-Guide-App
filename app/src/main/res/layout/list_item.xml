@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:minHeight="@dimen/list_item_height">
+
+    <!-- Photo -->
+    <ImageView
+        android:id="@+id/list_view_venue_image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
+
+    <!-- Main list container -->
+    <!-- All inside of it have same b/g color -->
+
+    <RelativeLayout
+        android:id="@+id/list_view_text_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/list_view_venue_image"
+        android:orientation="vertical">
+
+        <!-- Venue title -->
+        <!-- Visibility: All -->
+        <TextView
+            android:id="@+id/list_view_venue_title"
+            style="@style/ListViewVenue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Working hours tag -->
+        <!-- Visibility: All -->
+        <TextView
+            android:id="@+id/list_view_working_hours_tag"
+            style="@style/ListViewTags"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list_view_venue_title"
+            android:text="@string/list_view_working_hours" />
+
+        <!-- Working hours -->
+        <!-- Visibility: All -->
+        <TextView
+            android:id="@+id/list_view_working_hours"
+            style="@style/ListViewNumbers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list_view_venue_title"
+            android:layout_toEndOf="@+id/list_view_working_hours_tag" />
+
+        <!-- Button on the right side -->
+        <!-- Visibility: All -->
+        <ImageView
+            android:id="@+id/list_view_button"
+            style="@style/ListViewButton"
+            android:src="@drawable/ic_open_in_browser" />
+
+    </RelativeLayout>
+</RelativeLayout>
